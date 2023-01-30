@@ -1,6 +1,6 @@
 # Styles Shoe Shop
 
-# A simple web project built using Codeigniter 3 during my college years back in 2017
+<em>A simple web project built using Codeigniter 3 during my college years back in 2017</em>
 
 <img src="https://github.com/marlonmdev/styles-shoe-shop/blob/main/assets/screenshots/Screenshot_1.png" alt="Home Page">
 
