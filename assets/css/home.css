@@ -1,0 +1,161 @@
+@font-face{
+	font-family: 'josefinSans';
+	src: url(../../fonts/JosefinSans-Light.ttf);
+	font-style: normal;
+	font-weight: 180;
+}
+@font-face{
+	font-family: 'roboto';
+	src: url(../../fonts/Roboto-Regular.ttf);
+	font-style: normal;
+	font-weight: 180;
+}
+@font-face{
+	font-family: 'poppins';
+	src: url(../../fonts/Poppins-Thin.otf);
+	font-style: normal;
+	font-weight: 100;
+}
+a,h1,h2,h3,h4,h5,h6{
+	font-family: roboto !important;
+	font-weight: 180;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: box-shadow;
+}
+p{
+	font-family: josefinSans !important;
+	font-weight: 180;
+	font-size: 1.2em;
+}
+body{
+	background: #fff;
+	margin-top: 50px;
+}
+@media (max-width:991px) {
+  body{
+    margin-top:100px;
+  }
+}
+.header{
+	height: 600px;
+	background: #fff;
+}
+.header #himage img{
+	margin: 0 auto;
+	margin-top: 7%;
+	height: 100%;
+	width: 100%;
+}
+@media (max-width:991px) {
+  .header{
+    height: auto;
+  }
+}
+.navwrap{
+	background: #377DC8;
+	height: 50px;
+}
+#nav{
+	background-color: #377DC8;
+	border: none;
+	z-index: 2;
+}
+#text{
+	color: #fff;
+	font-weight: normal;
+}
+.content{
+	z-index: 1;
+ 	height: auto;
+ 	width: 85%;
+ 	margin: 0 auto;
+}
+.content #image{
+	padding: 4% 0 4% 0;
+}
+.content .images img{
+	width: 100%;
+}
+.content #atext{
+	padding-top: 2%;
+	height: auto;
+}
+.content #atext h2{
+	color: #21354D;
+}
+.content #atext p{
+	color: #21354D;
+	font-size: 1.1em;
+}
+.vmgos{
+	height: 370px;
+	width: 100%;
+	margin: 0 auto;
+}
+.vmgos #mission, #vision, #goals{
+	border: none;
+	transition: all 0.2s ease-in-out;
+}
+.vmgos #mission:hover, #vision:hover, #goals:hover{
+	cursor: pointer;
+	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+	-o-border-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+.bottom{
+	height: 120px;
+	width: 100%;
+	background: #377DC8;
+}
+.bottom #logos img{
+	height: 90%;
+	margin-top: 4%;
+}
+.bottom{
+	margin-top: 60px;
+}
+.bottom #copyright p{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 12%;
+}
+.bottom #contacts{
+	margin-top: 2%;
+}
+.bottom #contacts h5{
+	color: #28333E;
+	padding-left: 18%;
+}
+@media (max-width:991px) {
+	.bottom{
+	height: auto;
+}
+  	.bottom #contacts h5{
+	padding: 0;
+	width: auto;
+}
+}
+#modalContent{
+	background: #fff;
+}
+#modalHead{
+	background: #377DC8;
+}
+#logType{
+	background: transparent;
+	border: none;
+}
+#logImg{
+	transition: all 0.2s ease-in-out;
+}
+#logImg:hover{
+	-ms-transform: scale(1.1, 1.1); /* IE 9 */
+    -webkit-transform: scale(1.1, 1.1);/* Google Chrome and Safari*/
+    -moz-transform: scale(1.1, 1.1); /* Mozilla Firefox */
+    transform: scale(1.1, 1.1);
+}

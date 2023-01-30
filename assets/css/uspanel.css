@@ -1,0 +1,90 @@
+@font-face{
+	font-family: 'josefinSans';
+	src: url(../../fonts/JosefinSans-Light.ttf);
+	font-style: normal;
+	font-weight: 300;
+}
+@font-face{
+	font-family: 'roboto';
+	src: url(../../fonts/Roboto-Regular.ttf);
+	font-style: normal;
+	font-weight: 180;
+}
+@font-face{
+	font-family: 'poppins';
+	src: url(../../fonts/Poppins-Thin.otf);
+	font-style: normal;
+	font-weight: 100;
+}
+a,label{
+	font-family: josefinSans !important;
+	font-weight: 300;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	overflow: auto;
+}
+#topNav{
+	background: #1E456E;
+	border: none;
+}
+#content{
+	margin-top: -20px;
+	width: 100%;
+}
+.sidebar{
+	height: 600px;
+	background: #377DC8;
+}
+.info{
+	height: auto;
+	background: #fff;
+}
+#alerts{
+	margin-top: 10px;
+}
+@media(max-width:991px;){
+	.sidebar{
+		height: auto;
+	}
+	.info{
+		height: auto;
+	}
+}
+#sidenav li{
+	list-style-type: none;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+#sidenav li a{
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+	padding-left: 30px;
+	color: #fff;
+	font-size: 1.1em;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+}
+.present{
+	background: #1E456E;
+	color: #fff;
+}
+#sidenav li a:hover{
+	background: #1E456E;
+	color: #fff;
+}
+#panel{
+	margin-top: 20px;
+}
+.checkbox{
+	margin-left: 30px;
+}
+#btnBack{
+	padding-left: 20px;
+}

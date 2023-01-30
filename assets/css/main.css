@@ -1,0 +1,134 @@
+html{
+min-height:100%;
+position:relative;
+}
+body{
+height:100%; 
+}
+#navs{
+margin-bottom: 0px;
+background: #377DC8 !important;
+border: 2px solid #377DC8;
+width: 100%;
+}
+#text{
+color: #fff;
+}
+#sidebar{
+background: #3E7ADA;
+margin-top: 0px;
+border: 2px solid #3E7ADA;
+width: 20%;
+position:fixed;
+top:50px;
+bottom:0;
+left:0;
+right:0;
+overflow:hidden;
+}
+#content {
+margin-left: 20%;
+margin-top: 10px;
+width: 80%;
+position:fixed;
+top:0;
+bottom:0;
+left:0;
+right:0;
+overflow:scroll;
+}
+#user_logo{
+height: 150px;
+width: 150px;
+margin: 0 auto;
+}
+@media (max-width: 991px){
+	#user_logo{
+		height: 100px;
+		width: 100px;
+	}
+}
+#sideNavs{
+background: transparent;
+border: transparent;
+transition: all 0.2s ease-in-out;
+}
+#sideLogo{
+font-size: 30px;
+}
+#sideNavs .active{
+background: #F7941D;
+}
+#sideNavs ul li:hover{
+background: #F7941D;
+color: #377DC8;
+}
+.active{	
+color: #fff !important;
+background-color: #F7941D;
+}
+.modal-content {
+margin-left: 25%;
+margin-right: 25%;
+	max-width: 400px;		
+}
+#c_accountwrap{
+	margin-top: -20px;
+	width: 40%;
+	margin: 0 auto;
+	position: fixed;
+}
+#studAdd {
+	float: left;
+}
+#studSearch {
+	float: right;
+	margin-top: 5px;
+	margin-right: 2px;
+}
+.clearer {
+	float: none !important;
+	clear: both !important;
+}
+#contentMain {
+	margin-left: 2px;
+	margin-left: 2px;
+	margin: 0 auto;
+}
+#youth {
+	margin-top: 15px;
+}
+#account {
+	margin-top: 15px;
+}
+.theader {
+	margin: 0 15px 0 15px;
+	margin-top: 20px;
+	font-weight: bold;
+	list-style-type: none;	
+	width: 12%;
+	float: left;
+}
+#theader ul {
+	height: 20px;
+	margin-left: -30px;
+	list-style-type: none;			
+	overflow: hidden;
+}
+tbody tr td{
+	text-align: left;
+}
+table td {
+	width: 16%;
+}
+#outModal{
+	margin: 0 auto;
+}
+#modalHead{
+	background: #377DC8;
+	height: 50px;
+}
+#modalContent{
+	background: #ffffff;
+	width: 100%;
+}
